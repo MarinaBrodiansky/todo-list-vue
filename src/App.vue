@@ -3,7 +3,7 @@
     <div class="background-container" :class="{ 'blur-background': showModal }">
       <div class="top-container">
         <h1 class="title">To do list</h1>
-        <button class="add-button" @click="showModal = true"><img src="../public/plus.svg"></button>
+        <button class="add-button" @click="showModal = true"><img src="/plus.svg"></button>
     </div>
     <SearchAndSort v-model:search="searchText" v-model:sort="sortType" />
     <div class="table-header">

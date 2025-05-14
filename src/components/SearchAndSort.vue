@@ -1,7 +1,7 @@
 <template>
   <div class="search-sort">
     <div>
-    <img src="../../public/search.svg">
+    <img src="/search.svg">
     <input v-model="search" placeholder="Поиск Имени, статуса или даты"/>
     </div>
     <div>
