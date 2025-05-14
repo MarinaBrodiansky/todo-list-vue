@@ -3,12 +3,14 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "strict": true,
-    "jsx": "preserve",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "./dist",
-    "types": ["vite/client", "vitest/globals"]
+    "strict": true,
+    "moduleDetection": "auto",
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "types": ["vite/client", "vue"]
   },
   "include": ["src/**/*"]
 }
